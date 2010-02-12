@@ -1,0 +1,112 @@
+body
+{
+	font: 14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	margin: 0px;
+	text-align: center;
+	background: #eee url(../images/bg.png) repeat-x;
+}
+
+/* @group Header */
+
+div.stripe
+{
+	background: #006fbb;
+	display: block;
+	border-bottom: 5px solid #0f4678;
+}
+
+div.header_padding
+{
+	width: 700px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+div.header
+{
+	color: black;
+	text-align: left;
+}
+
+h1
+{
+	color: black;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	font-weight: bold;
+	font-size: 22px;
+	
+}
+
+
+/* @end */
+
+p
+{
+	text-align: left;
+	color: #575757;
+	line-height: 25px;
+}
+
+h2
+{
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	color: black;
+	text-align: left;
+	border-bottom: 1px solid #c7c7c7;
+	padding-bottom: 8px;
+}
+
+img.r
+{
+	float: right;
+}
+
+div.clear
+{
+	clear:  both;
+}
+
+a
+{
+	color: #006fbb;
+	text-decoration: none;
+}
+
+a:active, a:hover
+{
+	color: #0f4678;
+}
+
+code
+{
+	background: silver;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #585858;
+	display: inherit;
+	-webkit-border-radius: 8px;
+}
+
+ul
+{
+	color: #575757;
+	text-align: left;
+	line-height: 25px;
+}
+
+/*@group Footer */
+
+div.footer
+{
+	border-top: 1px solid #c7c7c7;
+	text-align: left;
+	font-size: 10px;
+	color: #3c3c3c;
+	padding-top: 5px;
+}
+
+/* @end */
+
